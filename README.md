@@ -44,7 +44,8 @@ Here is the way we get the reference file:
 
 ![image](https://github.com/max-yeah/Citation-Generator-for-Mac/blob/master/Demo%20Pictures/reference%20file.png)
 
-The first line is the type of your reference. In this case is "Thesis". Now the Citation Machine only support **Web/ Book/ Journal/ Newspaper/ Magazine**.
+The first line is the type of your reference. In this case is "<u>Thesis</u>". This resource type is not supported.
+Now the Citation Machine <u>only</u> support **Web/ Book/ Journal/ Newspaper/ Magazine**. 
 
 ![image](https://github.com/max-yeah/Citation-Generator-for-Mac/blob/master/Demo%20Pictures/Journal%20reference%20file.png)
 
