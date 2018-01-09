@@ -16,12 +16,11 @@ The citation generator is a lite offline version. It's main focus is efficiency.
 
 The navigation page is like this:
 
-![屏幕快照 2018-01-09 下午4.44.13](/Users/yehaolin/Desktop/屏幕快照 2018-01-09 下午4.44.13.png)
+![image](https://github.com/max-yeah/Citation-Generator-for-Mac/blob/master/Demo%20Pictures/Navigation.png)
 
 Then Choose any resources type you will enter specific page:
 
-![屏幕快照 2018-01-09 下午4.50.54](/Users/yehaolin/Desktop/屏幕快照 2018-01-09 下午4.50.54.png)
-
+![image](https://github.com/max-yeah/Citation-Generator-for-Mac/blob/master/Demo%20Pictures/Journal%20Page.png)
 You have **TWO** ways to input the information:
 
 1. Manually
@@ -35,23 +34,23 @@ Here is the way we get the reference file:
 
 1. Search some topic in CNKI, Choose the essay you want, and click “导出/参考文献”
 
-![屏幕快照 2018-01-09 下午4.54.57](/Users/yehaolin/Desktop/屏幕快照 2018-01-09 下午4.54.57.png) 
+![image](https://github.com/max-yeah/Citation-Generator-for-Mac/blob/master/Demo%20Pictures/CNKI%20search.png) 
 
 2. Choose "EndNote" as export format. Click "导出"
 
-![屏幕快照 2018-01-09 下午4.59.24](/Users/yehaolin/Desktop/屏幕快照 2018-01-09 下午4.59.24.png)
+![image](https://github.com/max-yeah/Citation-Generator-for-Mac/blob/master/Demo%20Pictures/Export%20reference%20file.png)
 
 3. Then you will get a reference txt file in "下载/Downloads" folder
 
-![屏幕快照 2018-01-09 下午5.01.53](/Users/yehaolin/Desktop/屏幕快照 2018-01-09 下午5.01.53.png)
+![image](https://github.com/max-yeah/Citation-Generator-for-Mac/blob/master/Demo%20Pictures/reference%20file.png)
 
 The first line is the type of your reference. In this case is "Thesis". Now the Citation Machine only support **Web/ Book/ Journal/ Newspaper/ Magazine**.
 
-![屏幕快照 2018-01-09 下午5.03.37](/Users/yehaolin/Desktop/屏幕快照 2018-01-09 下午5.03.37.png)
+![image](https://github.com/max-yeah/Citation-Generator-for-Mac/blob/master/Demo%20Pictures/Journal%20reference%20file.png)
 
 This one belong to <u>Journal</u> type. So it could be read and auto-filled by the Citation Machine. If you open the <u>wrong type</u> reference file (e.g. open Thesis reference file in Journal page), the Machine will give out a warning message and failed to fill in.
 
-![屏幕快照 2018-01-09 下午5.08.30](/Users/yehaolin/Desktop/屏幕快照 2018-01-09 下午5.08.30.png)
+![image](https://github.com/max-yeah/Citation-Generator-for-Mac/blob/master/Demo%20Pictures/warning%20message.png)
 
 **Remember:** 
 
@@ -67,5 +66,8 @@ This one belong to <u>Journal</u> type. So it could be read and auto-filled by t
 
 ## Installation
 
-Find the dmg for Mac in Realeases Tag or Click here to down load.
+Find the dmg for Mac in Realeases Tag or Click [here](https://github.com/max-yeah/Citation-Generator-for-Mac/releases/download/v1.0/Citation.Generator.for.Mac.dmg) to down load.
 
+
+## Other Contributors
+Min Tian, Yu Jiahan
