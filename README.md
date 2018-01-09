@@ -5,7 +5,7 @@ An offline efficient & lite Citation Machine
 
 ## Description
 
-The citation generator is a lite offline version. It's main focus is efficiency.
+The citation generator is a lite offline app. It's main focus is efficiency.
 
 <u>**Two Functions:**</u>
 
