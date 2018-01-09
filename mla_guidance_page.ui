@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mla_guidance_page</class>
+ <widget class="QDialog" name="mla_guidance_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>651</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;MLA Guidance&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_button">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>10</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>571</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.lib.jmu.edu/help/checkcite/default.aspx?end_prod=1&amp;amp;style=2&amp;amp;source=1&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;MLA -- Within a Paper -- Book&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt;Last name, First name. &lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#333333;&quot;&gt;Book title&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt;. Place: Publisher, Year. Format.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt;姓名. &lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#000000;&quot;&gt;书名. &lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt;出版地点: 出版社. 年份. 印刷.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>571</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.lib.jmu.edu/help/checkcite/default.aspx?end_prod=1&amp;amp;style=2&amp;amp;source=2&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;MLA -- Within a Paper -- Jounral&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt;Last name, First name. “Article title.” &lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#333333;&quot;&gt;Journal title&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt; Volume.Issue (Year): page numbers.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt;姓名. 文章标题&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#000000;&quot;&gt;. 期刊名.&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt; 卷册, 期号 (年份): 页码.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>571</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.lib.jmu.edu/help/checkcite/default.aspx?end_prod=1&amp;amp;style=2&amp;amp;source=2&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;MLA -- Within a Paper -- Magzine&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt;Last name, First name. “Article title.” &lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#333333;&quot;&gt;Magazine Title&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt; Year: page numbers.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt;姓名. 文章标题&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#000000;&quot;&gt;. 杂志名.&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt; 年份: 页码.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>330</y>
+     <width>571</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.lib.jmu.edu/help/checkcite/default.aspx?end_prod=1&amp;amp;style=2&amp;amp;source=2&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;MLA -- Within a Paper -- Newspaper&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt;Last name, First name. “Article title.” &lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#333333;&quot;&gt;Newspaper title&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt; Year, edition: page numbers.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt;姓名. 文章标题&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#000000;&quot;&gt;. 报纸名.&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt; 年份: 页码.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>440</y>
+     <width>571</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.lib.jmu.edu/help/checkcite/default.aspx?end_prod=1&amp;amp;style=2&amp;amp;source=3&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;MLA -- Within a Paper -- Website&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt;Author. &lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#333333;&quot;&gt;Website title&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#333333;&quot;&gt;. Version or edition. Publisher or sponsor, Publication Day Month Year. Retrieved Day Month Year.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt;姓名. &lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#000000;&quot;&gt;网站标题. &lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt;编辑版本&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-style:italic; color:#000000;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; color:#000000;&quot;&gt; 出版人, 出版时间. 检索时间.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

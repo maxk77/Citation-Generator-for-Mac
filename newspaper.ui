@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Newspaper</class>
+ <widget class="QDialog" name="Newspaper">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>634</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="author_first">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>120</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>First</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="article_title_line">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>471</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="reference">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>327</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>.SF NS Text</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Reference</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date_published">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>253</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Year Published</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="newspaper">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Newspaper&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="start_page_line">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>280</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="contributor">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>103</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Contributor</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="editor_multi">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>140</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>mutiple-editor</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="translator_last_bar">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>180</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="translator_label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>178</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Translator</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="editor_last_bar">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>140</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="article_title">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Article Title</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="author_last">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>120</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>Last</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="bibliography_line">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>601</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="English_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>250</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>English</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="editor_first_bar">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>140</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="magzine_title">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>223</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Newspaper Title</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="author_first_bar">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>100</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="translator_first">
+   <property name="geometry">
+    <rect>
+     <x>163</x>
+     <y>200</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>First</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="page_end">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>300</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>End</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="end_page_line">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>280</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear_button">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>250</y>
+     <width>74</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="editor_first">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>160</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>First</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="intext_cite">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>379</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>In-text Citation</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inpaper_citation_line">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>601</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="editor_label">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>142</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Editor</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="translator_check">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>100</y>
+     <width>87</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Translator</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="page">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>283</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Page</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_button">
+   <property name="geometry">
+    <rect>
+     <x>542</x>
+     <y>26</y>
+     <width>81</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="author_last_bar">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>100</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="editor_check">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>100</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Editor</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="editor_last">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>160</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>Last</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="get_citation_button">
+   <property name="geometry">
+    <rect>
+     <x>516</x>
+     <y>280</y>
+     <width>111</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Get Citation</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="newspaper_title_line">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>220</y>
+     <width>471</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="translator_first_bar">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>179</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="translator_multi">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>180</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>mutiple-translator</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="author_label">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>104</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Author</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="translator_last">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>200</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>Last</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="reference_style">
+   <property name="geometry">
+    <rect>
+     <x>522</x>
+     <y>320</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="page_start">
+   <property name="geometry">
+    <rect>
+     <x>167</x>
+     <y>300</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="date_line">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="load_button">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>26</y>
+     <width>171</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Open Reference File</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="author_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>100</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>multiple-author</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>article_title_line</tabstop>
+  <tabstop>author_first_bar</tabstop>
+  <tabstop>author_last_bar</tabstop>
+  <tabstop>editor_first_bar</tabstop>
+  <tabstop>editor_last_bar</tabstop>
+  <tabstop>translator_first_bar</tabstop>
+  <tabstop>translator_last_bar</tabstop>
+  <tabstop>newspaper_title_line</tabstop>
+  <tabstop>date_line</tabstop>
+  <tabstop>start_page_line</tabstop>
+  <tabstop>end_page_line</tabstop>
+  <tabstop>bibliography_line</tabstop>
+  <tabstop>inpaper_citation_line</tabstop>
+  <tabstop>get_citation_button</tabstop>
+  <tabstop>back_button</tabstop>
+  <tabstop>editor_check</tabstop>
+  <tabstop>English_checkBox</tabstop>
+  <tabstop>translator_check</tabstop>
+  <tabstop>translator_multi</tabstop>
+  <tabstop>reference_style</tabstop>
+  <tabstop>clear_button</tabstop>
+  <tabstop>load_button</tabstop>
+  <tabstop>author_checkBox</tabstop>
+  <tabstop>editor_multi</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
