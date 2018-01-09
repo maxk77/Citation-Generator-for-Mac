@@ -68,7 +68,7 @@ This one belong to <u>Journal</u> type. So it could be read and auto-filled by t
 
 ## Installation
 
-Find the dmg for Mac in Realeases Tag or Click [here](https://github.com/max-yeah/Citation-Generator-for-Mac/releases/download/v1.0/Citation.Generator.for.Mac.dmg) to down load.
+Find the dmg for Mac in Realeases Tag or Click [here](https://github.com/max-yeah/Citation-Generator-for-Mac/releases/download/v1.0/Citation.Generator.for.Mac.dmg) to download.
 
 
 ## Other Contributors
