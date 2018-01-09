@@ -29,8 +29,9 @@ You have **TWO** ways to input the information:
 
 
 The **reference file** is supported by 知网CNKI and 读秀 by now (说不定还有更多)
+**** 
 
-Here is the way we get the reference file:
+**Here is the way we get the reference file:**
 
 1. Search some topic in CNKI, Choose the essay you want, and click “导出/参考文献”
 
