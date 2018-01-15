@@ -3,10 +3,10 @@ An offline efficient & lite Citation Machine
 
 <br>
 
-## 目录 Catalogue
-* [Description](#Description)
-* [Installation](#Installation)
-* [other contributors](#Other Contributors)
+## Content
+* [Description](#description)
+* [Installation](#installation)
+* [other contributors](#other-contributors)
 
 <br>
 <br>
