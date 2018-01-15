@@ -1,8 +1,12 @@
 # Citation-Generator-for-Mac
 An offline efficient & lite Citation Machine
-
-
-
+<br>
+## 目录 Catalogue
+* [Description](#Description)
+* [Installation](#Installation)
+* [other contributors](#Other Contributors)
+<br>
+<br>
 ## Description
 
 The citation generator is a lite offline app. It's main focus is efficiency.
@@ -59,17 +63,11 @@ This one belong to <u>Journal</u> type. So it could be read and auto-filled by t
 1. Use "**,**" to separate multi-authors' names and Click the **multi-author** box.
 2. If there is any translator or editor, click **multi-translator/editor** box and the corresponding line will be showed.
 3. Check whether there is any useless stuff like "**,**" or "**.**" after you generate the citation. Please erase it.
-
- 
-
- 
-
- 
-
+<br>
+<br>
 ## Installation
-
 Find the dmg for Mac in Realeases Tag or Click [here](https://github.com/max-yeah/Citation-Generator-for-Mac/releases/download/v1.0/Citation.Generator.for.Mac.dmg) to download.
-
-
+<br>
+<br>
 ## Other Contributors
 Min Tian, Yu Jiahan
