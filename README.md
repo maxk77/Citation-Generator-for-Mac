@@ -3,8 +3,8 @@ An offline efficient & lite Citation Machine
 
 <br>
 
-## Content
-* [Description](#description)
+## Catalogue
+* [User Manual](#description)
 * [Installation](#installation)
 * [other contributors](#other-contributors)
 
